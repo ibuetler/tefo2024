@@ -1,6 +1,6 @@
 # setup vm on Scaleway
-apt update
-apt install docker.io net-tools
+apt update -y
+apt install -y docker.io net-tools
 mkdir -p /opt/git
 cd /opt/git
 git clone --recurse-submodules https://github.com/cobbr/Covenant
